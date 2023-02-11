@@ -20,23 +20,23 @@
                     <h2 class="title">Registration</h2>
                     <form action="_inserir_integrante.php" method="POST" enctype="multipart/form-data">
                         <div class="input-group">
-                            <input placeholder="Nome" type="text" class="input--style-2">
+                            <input placeholder="Nome" name="nome_mass" id="nome_mass" type="text" class="input--style-2">
                         </div>
                         <div class="input-group">
-                            <input placeholder="intérprete" type="text" class="input--style-2">
+                            <input placeholder="intérprete" name="inter_mass" id="inter_mass" type="text" class="input--style-2">
                         </div>
                         <div class="input-group">
-                            <input placeholder="Função" type="text" class="input--style-2">
+                            <input placeholder="Função" name="fun_mass" id="fun_mass" type="text" class="input--style-2">
                         </div>
                         <div class="row row-space">
                             <div class="col-6">
                                 <div class="input-group">
-                                    <input type="number" placeholder="Ano" class="input--style-2 js-datepicker">
+                                    <input type="number" name="ano_mass" id="ano_mass" placeholder="Ano" class="input--style-2 js-datepicker">
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="input-group">
-                                    <select name="status" id="" class="input--style-2 select2-hidden-accessible">
+                                    <select name="status_mass" id="status_mass" class="input--style-2 select2-hidden-accessible">
                                         <option disabled="disabled" selected="selected" value="Status">Status na Banda</option>    
                                         <option value="Ativo">Ativo</option>
                                         <option value="Inativo">Inativo</option>
