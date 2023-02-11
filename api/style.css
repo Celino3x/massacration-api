@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: block;
+}
+
+body{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.p-b-100{
+    padding-bottom: 100px;
+}
+
+.p-t-100{
+    padding-top: 100px;
+}
+
+.bg-form{
+    background-image: url(img/fire.mp4);
+}
+
+.page-wrapper{
+    min-height: 100vh;
+}
+
+.font-robo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper--w960{
+    max-width: 960px;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
+
+.card-2{
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    width: 100%;
+    display: table;
+}
+
+.card{
+    overflow: hidden;
+    background: #FFF;
+}
+
+.card-2 .card-heading{
+    background: url(bg-heading-02.jpg) top left/cover no-repeat;
+    width: 29.1%;
+    display: table-cell;
+}
+
+.card-2 card-body{
+    display: table-cell;
+    padding: 80px 90px;
+    padding-bottom: 88px;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 97px;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: 'New Rocker', cursive;
+}
+
+.input-group{
+    position: relative;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+input{
+    outline: none;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    font-family: inherit;
+}
+
+.input--style-2{
+    padding: 0px 0;
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+select{
+    outline: none;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    font-weight: inherit;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;    
+}
+
+p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.p-t-30{
+    padding-top: 30px;
+}
+
+.btn--red{
+    background: #f02121;
+}
+
+.btn--red:hover{
+    background: #9b1010;
+    color: #e5e5e5;
+}
+
+.btn--radius{
+    border-radius: 3px;
+}
+
+.btn{
+   line-height: 40px;
+   display: inline-block;
+   padding: 0 25px;
+   cursor: pointer;
+   color: #FFF;
+   font-family: 'New Rocker', cursive;
+   transition: all .4s ease;
+   font-size: 14px;
+   font-weight: 300;
+}
+
+button{
+    outline: none;
+    border: none;
+    margin-bottom: 50px;
+}
+
