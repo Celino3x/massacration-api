@@ -28,7 +28,8 @@
 
         move_uploaded_file($_FILES['foto_mass']['tmp_name'], $diretorio.$new_name);
 
-        $sql = "INSERT INTO `integrantes`( `nome_mass`, `inter_mass`, `ano_mass`, `status_mass`, `foto_mass`) VALUES ('$nome_mass', '$inter_mass', '$fun_mass', '$ano_mass', '$status_mass', '$new_name')";
+        
+        $sql = "INSERT INTO `integrantes`(`nome_mass`, `inter_mass`, `fun_mass`, `ano_mass`, `status_mass`, `foto_mass`) VALUES ('$nome_mass', '$inter_mass', '$fun_mass', '$ano_mass', '$status_mass', '$new_name')";
 
         $inserir = mysqli_query($conexao, $sql);
 

@@ -1,10 +1,10 @@
 <?php  
     $server = "localhost";
-    $database = "id20284597_massacration_api";
-    $username = "root";
-    $pass = "";
+    $database = "massacration-api";
+    $username = "celino3x";
+    $pass = "C@$@#Admin";
 
-    $conexao = mysqli_connect($server,$username,$pass,$database);
+    $conexao = mysqli_connect($server, $username, $pass, $database);
 
     //Senha:WERb7@lBp5q2mFLY
     //USER: id20284597_detonator
