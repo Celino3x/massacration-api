@@ -61,6 +61,7 @@ body{
     background: url(bg-heading-02.jpg) top left/cover no-repeat;
     width: 29.1%;
     display: table-cell;
+    object-fit: contain;
 }
 
 .card-2 card-body{
