@@ -18,7 +18,7 @@
                 <div class="card-heading"></div>
                 <div class="card-body">
                     <h2 class="title">Registration</h2>
-                    <form action="" method="POST">
+                    <form action="_inserir_visitante.php" method="POST" enctype="multipart/form-data">
                         <div class="input-group">
                             <input placeholder="Nome" type="text" class="input--style-2">
                         </div>
