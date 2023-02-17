@@ -2,7 +2,7 @@
     $server = "localhost";
     $database = "massacration-api";
     $username = "celino3x";
-    $pass = "C@$@#Admin";
+    $pass = "123456";
 
     $conexao = mysqli_connect($server, $username, $pass, $database);
 

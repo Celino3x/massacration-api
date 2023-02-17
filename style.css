@@ -160,3 +160,35 @@ button{
     margin-bottom: 50px;
 }
 
+.imgindex{
+    margin: auto;
+    display: block;
+    margin-top: 30%;
+}
+
+figcaption{
+    text-align: center;
+    color: #e5e5e5;
+    font-family: 'New Rocker', cursive;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+audio{
+    margin: auto;
+    display: block;
+}
+
+.nav a{
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    margin: auto;
+}
+
+a{
+    color: #ffffff;
+}
