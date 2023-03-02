@@ -54,7 +54,7 @@ body{
 
 .card{
     overflow: hidden;
-    background: #FFF;
+    background: hsl(0, 0%, 100%, 0.5);
 }
 
 .card-2 .card-heading{
@@ -85,7 +85,7 @@ h2{
 .input-group{
     position: relative;
     margin-bottom: 32px;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid rgb(229, 229, 229, 0.5);
 }
 
 input{
@@ -95,11 +95,17 @@ input{
     box-shadow: none;
     width: 100%;
     font-family: inherit;
+    background: rgb(255, 255, 255, 0.1);
+    
+}
+
+select{
+    background: rgb(255, 255, 255, 0.1); 
 }
 
 .input--style-2{
     padding: 0px 0;
-    color: #666;
+    color: rgb(39, 38, 38);
     font-size: 16px;
     font-weight: 500;
 }
@@ -111,6 +117,16 @@ select{
     box-shadow: none;
     width: 100%;
     font-weight: inherit;
+}
+
+input#foto_mass{
+    color: rgb(39, 38, 38);
+    background: rgb(255, 255, 255, 0.1);
+}
+
+[type="file"]{
+    color: rgb(39, 38, 38);
+    background: rgb(255, 255, 255, 0.1);
 }
 
 .back-video{

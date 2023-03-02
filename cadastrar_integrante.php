@@ -15,7 +15,7 @@
     <div class="page-wrapper bg-form p-t-100 p-b-100 font-robo">
         <div class="container wrapper wraooer--w960">
             <div class="card card-2">
-                <div class="card-heading"></div>
+                <div class="card-heading" id="card-heading"></div>
                 <div class="card-body">
                     <h2 class="title">Registration</h2>
                     <form action="_inserir_integrante.php" method="POST" enctype="multipart/form-data">
