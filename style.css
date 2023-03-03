@@ -85,7 +85,7 @@ h2{
 .input-group{
     position: relative;
     margin-bottom: 32px;
-    border-bottom: 1px solid rgb(229, 229, 229, 0.5);
+    border-bottom: 1px solid rgb(229, 229, 229);
 }
 
 input{
@@ -95,12 +95,12 @@ input{
     box-shadow: none;
     width: 100%;
     font-family: inherit;
-    background: rgb(255, 255, 255, 0.1);
+    background: rgb(255, 255, 255);
     
 }
 
 select{
-    background: rgb(255, 255, 255, 0.1); 
+    background: rgb(255, 255, 255); 
 }
 
 .input--style-2{
